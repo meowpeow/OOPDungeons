@@ -11,7 +11,6 @@ class SpawnMob implements Spawn {
         return null;
     }
 }
-
 /*    @Override
     public Character create(Character mob) {
         return mob;
