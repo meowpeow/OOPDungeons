@@ -2,9 +2,8 @@ package gameOOP.events;
 
 
 import gameOOP.combatants.Character;
-import gameOOP.combatants.MonsterNPC;
 
-class SpawnMob implements Spawn {
+class SpawnMob implements Spawn<Character> {
 
 /*    @Override
     public Character create(Character mob) {
