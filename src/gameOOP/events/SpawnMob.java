@@ -5,10 +5,10 @@ import gameOOP.combatants.Character;
 import gameOOP.combatants.MainHeroPC;
 import gameOOP.combatants.MonsterNPC;
 
-class SpawnMob implements Spawn {
+class SpawnMob implements Spawn<MonsterNPC> {
     @Override
-    public MainHeroPC create(MainHeroPC mainhero) {
-        return null;
+    public MonsterNPC create(MonsterNPC mob) {
+        return new mob;
     }
 }
 /*    @Override

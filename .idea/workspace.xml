@@ -17,8 +17,6 @@
       <change afterPath="$PROJECT_DIR$/../GameOOP/src/locations/DungFrozen.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../GameOOP/src/requests/CharactersNameRequest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../GameOOP/src/requests/RequestsManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/OOPDungeons.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/classes/db.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/classes/testgroup/shopdata/config/AppInitializer.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/classes/testgroup/shopdata/config/HibernateConfig.class" afterDir="false" />
@@ -81,6 +79,9 @@
       <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/test-classes/testgroup/shopdata/config/AppInitializerTest.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../shop2springmvc5hibernate5jspmysql/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gameOOP/events/Spawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameOOP/events/Spawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gameOOP/events/SpawnHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameOOP/events/SpawnHero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gameOOP/events/SpawnMob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameOOP/events/SpawnMob.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../crud-maven-spring-hibernate/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../crud-maven-spring-hibernate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../shop2springmvc5hibernate5jspmysql/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../shop2springmvc5hibernate5jspmysql/.idea/compiler.xml" afterDir="false" />

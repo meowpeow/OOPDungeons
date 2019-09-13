@@ -4,9 +4,9 @@ import gameOOP.combatants.Character;
 import gameOOP.combatants.MainHeroPC;
 import gameOOP.requests.RequestsForInput;
 
-public class SpawnHero implements Spawn {
+public class SpawnHero implements Spawn<MainHeroPC> {
 
-
+    @Override
     public MainHeroPC create(MainHeroPC mainhero) {
         RequestsForInput cname = new RequestsForInput();
         mainhero.setName(cname.getMainCharName());
