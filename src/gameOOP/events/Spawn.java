@@ -5,6 +5,6 @@ import gameOOP.combatants.MainHeroPC;
 
 interface Spawn<T> {
 
-    create(<T> mainhero);
+    MainHeroPC create(MainHeroPC mainhero);
 
 }

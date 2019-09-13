@@ -2,8 +2,102 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b340d5c8-8ee0-4f82-8180-99c9c0c40915" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameOOP/src/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameOOP/src/combatants/Character.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameOOP/src/combatants/Companions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameOOP/src/combatants/MainHero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameOOP/src/combatants/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameOOP/src/difficulty/Easy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameOOP/src/encounter/Encounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameOOP/src/encounter/EncounterFirst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameOOP/src/events/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameOOP/src/events/EventInitial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameOOP/src/locations/Dung.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameOOP/src/locations/DungBarren.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameOOP/src/locations/DungFrozen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameOOP/src/requests/CharactersNameRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameOOP/src/requests/RequestsManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/OOPDungeons.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/classes/testgroup/shopdata/config/AppInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/classes/testgroup/shopdata/config/HibernateConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/classes/testgroup/shopdata/config/WebConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/classes/testgroup/shopdata/controller/ShopDataController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/classes/testgroup/shopdata/dao/BookDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/classes/testgroup/shopdata/dao/BookDAOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/classes/testgroup/shopdata/model/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/classes/testgroup/shopdata/service/BookService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/classes/testgroup/shopdata/service/BookServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/classes/testgroup/shopdata/config/AppInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/classes/testgroup/shopdata/config/HibernateConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/classes/testgroup/shopdata/config/WebConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/classes/testgroup/shopdata/controller/ShopDataController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/classes/testgroup/shopdata/dao/BookDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/classes/testgroup/shopdata/dao/BookDAOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/classes/testgroup/shopdata/model/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/classes/testgroup/shopdata/service/BookService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/classes/testgroup/shopdata/service/BookServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/lib/FastInfoset-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/lib/byte-buddy-1.9.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/lib/classmate-1.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/lib/dom4j-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/lib/hibernate-core-5.4.4.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/lib/jandex-2.0.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.24.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/lib/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/lib/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/lib/stax-ex-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/lib/tomcat-dbcp-9.0.24.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/lib/tomcat-juli-9.0.24.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/lib/txw2-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/pages/books.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/pages/editPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/WEB-INF/pages/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/crud-maven-spring-hibernate-1.0-SNAPSHOT/res/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/target/test-classes/testgroup/shopdata/config/AppInitializerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop2springmvc5hibernate5jspmysql/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crud-maven-spring-hibernate/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crud-maven-spring-hibernate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../crud-maven-spring-hibernate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop2springmvc5hibernate5jspmysql/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../shop2springmvc5hibernate5jspmysql/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop2springmvc5hibernate5jspmysql/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop2springmvc5hibernate5jspmysql/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../shop2springmvc5hibernate5jspmysql/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop2springmvc5hibernate5jspmysql/.idea/webServers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop2springmvc5hibernate5jspmysql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../shop2springmvc5hibernate5jspmysql/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop2springmvc5hibernate5jspmysql/shop2springmvc5hibernate5jspmysql.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../shop2springmvc5hibernate5jspmysql/shop2springmvc5hibernate5jspmysql.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop2springmvc5hibernate5jspmysql/src/main/java/org/projects/shop2/config/AppContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/../shop2springmvc5hibernate5jspmysql/src/main/java/org/projects/shop2/config/AppContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop2springmvc5hibernate5jspmysql/src/main/java/org/projects/shop2/config/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../shop2springmvc5hibernate5jspmysql/src/main/java/org/projects/shop2/config/AppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop2springmvc5hibernate5jspmysql/src/main/java/org/projects/shop2/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../shop2springmvc5hibernate5jspmysql/src/main/java/org/projects/shop2/config/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop2springmvc5hibernate5jspmysql/src/main/java/org/projects/shop2/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../shop2springmvc5hibernate5jspmysql/src/main/java/org/projects/shop2/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop2springmvc5hibernate5jspmysql/src/main/java/org/projects/shop2/dao/CustomerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../shop2springmvc5hibernate5jspmysql/src/main/java/org/projects/shop2/dao/CustomerDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop2springmvc5hibernate5jspmysql/src/main/java/org/projects/shop2/dao/CustomerDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../shop2springmvc5hibernate5jspmysql/src/main/java/org/projects/shop2/dao/CustomerDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop2springmvc5hibernate5jspmysql/src/main/java/org/projects/shop2/entity/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop2springmvc5hibernate5jspmysql/src/main/java/org/projects/shop2/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../shop2springmvc5hibernate5jspmysql/src/main/java/org/projects/shop2/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shop2springmvc5hibernate5jspmysql/src/main/java/org/projects/shop2/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../shop2springmvc5hibernate5jspmysql/src/main/java/org/projects/shop2/service/CustomerServiceImpl.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +123,7 @@
     <favorites_list name="OOPDungeons" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Ql7s4LMoZIdolARmpELT3qDTWb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -53,6 +147,26 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gameOOP.Driver" />
+      <module name="OOPDungeons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gameOOP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Driver" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
