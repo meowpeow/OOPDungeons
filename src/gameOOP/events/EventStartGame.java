@@ -32,8 +32,13 @@ public class EventStartGame {
 
         Map<String, MonsterNPC> map = spawnmob.getMobsmap();
         for (Map.Entry<String, MonsterNPC> entry : map.entrySet()) {
+<<<<<<< Updated upstream
             System.out.println(entry.getKey());
             System.out.println(entry.getValue().toString());
+=======
+            System.out.println("Current opponent: "+entry.getKey());
+            //System.out.println(entry.getValue().toString());
+>>>>>>> Stashed changes
             combat.fight(mainhero, entry.getValue());
         }
     }
