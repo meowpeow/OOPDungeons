@@ -9,6 +9,7 @@ import java.util.Map;
 
 public class SpawnMob implements Spawn<MonsterNPC> {
     private MonsterNPC mob1;
+    private Map mobsmap;
 
     @Override
     public MonsterNPC create(MonsterNPC mob1) {
@@ -19,13 +20,21 @@ public class SpawnMob implements Spawn<MonsterNPC> {
         return mob1;
     }
 
-    public MonsterNPC createMultiple (HashMap hm) {
-        Map<String, MonsterNPC > mobmap = new HashMap <String, MonsterNPC>();
-
-        for (int i = 0; i<10; i++) {
+    public Map createMultiple(MonsterNPC mobtype) {
+        mobsmap = new HashMap<>();
+        for (int i = 1; i < 10; i++) {
+            String mobkey = String.format("mobs%s", i);
+            //MonsterNPC mobs;
+            MonsterNPC mobs = null;
+            try {
+                mobs = mobtype.clone();
+            } catch (CloneNotSupportedException e) {
+                e.printStackTrace();
+            }
+            mobsmap.put(mobkey, mobs);
 
         }
-        return mob1;
+        return mobsmap;
     }
 
     public MonsterNPC getMob1() {
@@ -35,6 +44,21 @@ public class SpawnMob implements Spawn<MonsterNPC> {
     public void setMob1(MonsterNPC mob1) {
         this.mob1 = mob1;
     }
+
+    public Map getMobsmap() {
+        return mobsmap;
+    }
+
+    public void setMobsmap(Map mobsmap) {
+        this.mobsmap = mobsmap;
+    }
+
+/*            this.id = mobtype.id;
+        this.name = mobtype.name;
+        this.level = mobtype.level;
+        this.healthbar = mobtype.healthbar;
+        this.damage = mobtype.damage;*/
+
 }
 /*    @Override
     public Character create(Character mob) {

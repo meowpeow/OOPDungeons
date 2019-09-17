@@ -8,4 +8,6 @@ interface Spawn<T> {
     T create(T item);
 
 
+
+
 }

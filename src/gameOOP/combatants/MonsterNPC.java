@@ -1,7 +1,6 @@
 package gameOOP.combatants;
 
 public class MonsterNPC extends Character {
-
     private int id;
     private String name;
     private int level;
@@ -48,5 +47,16 @@ public class MonsterNPC extends Character {
         this.damage = damage;
     }
 
+    public MonsterNPC(){}
 
+    public MonsterNPC(MonsterNPC mobtype) {
+        this.id = mobtype.id;
+        this.name = mobtype.name;
+        this.level = mobtype.level;
+        this.healthbar = mobtype.healthbar;
+        this.damage = mobtype.damage;
+    }
+    public MonsterNPC clone() throws CloneNotSupportedException {
+        return new MonsterNPC(this);
+    }
 }
