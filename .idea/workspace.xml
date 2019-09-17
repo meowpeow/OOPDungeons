@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b340d5c8-8ee0-4f82-8180-99c9c0c40915" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/gameOOP/combatants/constructors/MonsterConstructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOPDungeons/gameOOP/events/EventStartGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOPDungeons/gameOOP/events/EventStartGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOPDungeons/gameOOP/events/SpawnHero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOPDungeons/gameOOP/events/SpawnHero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOPDungeons/gameOOP/events/SpawnMob.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOPDungeons/gameOOP/events/SpawnMob.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOPDungeons/gameOOP/mechanic/Combat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOPDungeons/gameOOP/mechanic/Combat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gameOOP/events/EventStartGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameOOP/events/EventStartGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gameOOP/events/SpawnHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameOOP/events/SpawnHero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gameOOP/events/SpawnMob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameOOP/events/SpawnMob.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gameOOP/mechanic/Combat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameOOP/mechanic/Combat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backup/backup2/GameOOP" beforeDir="false" afterPath="$PROJECT_DIR$/../backup/backup2/GameOOP" afterDir="false" />
@@ -29,19 +37,32 @@
   <component name="FavoritesManager">
     <favorites_list name="OOPDungeons" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Ql7s4LMoZIdolARmpELT3qDTWb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GITHUBreverseengi/pixel-dungeon" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -96,6 +117,8 @@
       <option name="presentableId" value="Default" />
       <updated>1568333532665</updated>
       <workItem from="1568333534037" duration="8000" />
+      <workItem from="1568486984658" duration="14509000" />
+      <workItem from="1568692504657" duration="2278000" />
     </task>
     <servers />
   </component>
@@ -114,5 +137,23 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/gameOOP/combatants/MainHeroPC.java</url>
+          <line>5</line>
+          <properties field="name" class="gameOOP.combatants.MainHeroPC" />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/gameOOP/combatants/MainHeroPC.java</url>
+          <line>4</line>
+          <properties field="id" class="gameOOP.combatants.MainHeroPC" />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

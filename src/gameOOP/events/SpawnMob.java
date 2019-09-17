@@ -1,12 +1,13 @@
 package gameOOP.events;
 
-
 import gameOOP.combatants.Character;
 import gameOOP.combatants.MainHeroPC;
 import gameOOP.combatants.MonsterNPC;
 
-public class SpawnMob implements Spawn<MonsterNPC> {
+import java.util.HashMap;
+import java.util.Map;
 
+public class SpawnMob implements Spawn<MonsterNPC> {
     private MonsterNPC mob1;
 
     @Override
@@ -15,6 +16,15 @@ public class SpawnMob implements Spawn<MonsterNPC> {
         mob1.setLevel(1);
         mob1.setHealthbar(10);
         mob1.setDamage(6);
+        return mob1;
+    }
+
+    public MonsterNPC createMultiple (HashMap hm) {
+        Map<String, MonsterNPC > mobmap = new HashMap <String, MonsterNPC>();
+
+        for (int i = 0; i<10; i++) {
+
+        }
         return mob1;
     }
 
