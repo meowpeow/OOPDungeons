@@ -6,6 +6,7 @@ public class MonsterNPC extends Character {
     private int level;
     private int healthbar;
     private int damage;
+    private int dropGold;
 
     public int getId() {
         return id;
@@ -47,8 +48,17 @@ public class MonsterNPC extends Character {
         this.damage = damage;
     }
 
-    public MonsterNPC(){}
+    public int getDropGold() {
+        return dropGold;
+    }
 
+    public void setDropGold(int dropGold) {
+        this.dropGold = dropGold;
+    }
+
+    public MonsterNPC() {
+    }
+/*
     public MonsterNPC(MonsterNPC mobtype) {
         this.id = mobtype.id;
         this.name = mobtype.name;
@@ -59,4 +69,6 @@ public class MonsterNPC extends Character {
     public MonsterNPC clone() throws CloneNotSupportedException {
         return new MonsterNPC(this);
     }
+*/
+
 }

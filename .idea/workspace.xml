@@ -2,24 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b340d5c8-8ee0-4f82-8180-99c9c0c40915" name="Default Changelist" comment="">
-<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/.idea/OOPDungeons.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gameOOP/combatants/MonsterNPCCopy.java" afterDir="false" />
-=======
->>>>>>> Stashed changes
+      <change afterPath="$PROJECT_DIR$/src/gameOOP/mechanic/items/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gameOOP/mechanic/items/Items.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gameOOP/mechanic/items/SpawnItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gameOOP/mechanic/items/Sword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gameOOP/mechanic/items/SwordSpawn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOPDungeons/gameOOP/combatants/MonsterNPC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOPDungeons/gameOOP/combatants/MonsterNPC.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/OOPDungeons/gameOOP/events/EventStartGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOPDungeons/gameOOP/events/EventStartGame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/OOPDungeons/gameOOP/events/SpawnMob.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOPDungeons/gameOOP/events/SpawnMob.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/OOPDungeons/gameOOP/mechanic/Combat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOPDungeons/gameOOP/mechanic/Combat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gameOOP/combatants/MainHeroPC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameOOP/combatants/MainHeroPC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gameOOP/combatants/MonsterNPC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameOOP/combatants/MonsterNPC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gameOOP/combatants/constructors/MonsterConstructor.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gameOOP/events/EventStartGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameOOP/events/EventStartGame.java" afterDir="false" />
-<<<<<<< Updated upstream
-      <change beforePath="$PROJECT_DIR$/src/gameOOP/events/Spawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameOOP/events/Spawn.java" afterDir="false" />
-=======
->>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/src/gameOOP/events/SpawnMob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameOOP/events/SpawnMob.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gameOOP/mechanic/Combat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameOOP/mechanic/Combat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backup/backup2/GameOOP" beforeDir="false" afterPath="$PROJECT_DIR$/../backup/backup2/GameOOP" afterDir="false" />
@@ -41,7 +37,17 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="oopdungeons@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="oopdungeons@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FavoritesManager">
@@ -63,7 +69,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GITHUBreverseengi/pixel-dungeon" />
@@ -129,11 +135,9 @@
       <workItem from="1568333534037" duration="8000" />
       <workItem from="1568486984658" duration="14509000" />
       <workItem from="1568692504657" duration="4460000" />
-<<<<<<< Updated upstream
       <workItem from="1568739556171" duration="10217000" />
-=======
       <workItem from="1568739556171" duration="10788000" />
->>>>>>> Stashed changes
+      <workItem from="1568754358395" duration="14604000" />
     </task>
     <servers />
   </component>
@@ -157,9 +161,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/gameOOP/events/EventStartGame.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="14" />
+          <url>file://$PROJECT_DIR$/src/gameOOP/mechanic/Combat.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

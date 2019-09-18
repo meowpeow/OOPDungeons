@@ -1,5 +1,6 @@
 package gameOOP.combatants;
 
+
 public class MainHeroPC extends Character {
 
     private int id;
@@ -7,6 +8,7 @@ public class MainHeroPC extends Character {
     private int level;
     private int healthbar;
     private int damage;
+
 
     public int getId() {
         return id;
