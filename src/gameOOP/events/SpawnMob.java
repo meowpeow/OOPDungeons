@@ -14,9 +14,11 @@ public class SpawnMob implements Spawn<MonsterNPC> {
     @Override
     public MonsterNPC create(MonsterNPC mob1) {
         mob1.setId(1000);
+        mob1.setName("goblin");
         mob1.setLevel(1);
         mob1.setHealthbar(10);
         mob1.setDamage(6);
+        mob1.setDropGold(2);
         return mob1;
     }
 
