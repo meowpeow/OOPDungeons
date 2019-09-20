@@ -1,20 +1,22 @@
 package gameOOP.events;
 
+import gameOOP.combatants.CharacterC;
 import gameOOP.combatants.MainHeroPC;
 import gameOOP.combatants.MonsterNPC;
 import gameOOP.mechanic.Combat;
 
-import java.util.HashMap;
 import java.util.Map;
 
 public class EventStartGame {
     SpawnHero spawnhero = new SpawnHero();
     SpawnMob spawnmob = new SpawnMob();
 
-    /*    MainHeroPC mainhero;
+
+    /*
         MonsterNPC mob1;
         */
     public void startGame() {
+
         MainHeroPC mainhero = new MainHeroPC();
         spawnhero.create(mainhero);
         MonsterNPC mob1 = new MonsterNPC();
@@ -26,7 +28,7 @@ public class EventStartGame {
         spawnmob.getMobsmap().get("mobs1");
         spawnmob.getMobsmap().get("mobs2");
         spawnmob.getMobsmap().get("mobs3");
-        combat.fight(mainhero, (gameOOP.combatants.Character) spawnmob.getMobsmap().get("mobs1"));
+        combat.fight(mainhero, (CharacterC) spawnmob.getMobsmap().get("mobs1"));
         Map<String, MonsterNPC> map = spawnmob.getMobsmap();
 
         for (Map.Entry<String, MonsterNPC> entry : map.entrySet()) {

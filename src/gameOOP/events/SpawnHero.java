@@ -1,6 +1,5 @@
 package gameOOP.events;
 
-import gameOOP.combatants.Character;
 import gameOOP.combatants.MainHeroPC;
 import gameOOP.requests.RequestsForInput;
 

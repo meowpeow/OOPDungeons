@@ -1,11 +1,10 @@
 package gameOOP.events;
 
-import gameOOP.combatants.Character;
-import gameOOP.combatants.MainHeroPC;
 import gameOOP.combatants.MonsterNPC;
 
 import java.util.HashMap;
 import java.util.Map;
+
 
 public class SpawnMob implements Spawn<MonsterNPC> {
     private MonsterNPC mob1;
@@ -29,7 +28,7 @@ public class SpawnMob implements Spawn<MonsterNPC> {
             //MonsterNPC mobs;
             MonsterNPC mobs = null;
             try {
-                mobs = mobtype.clone();
+                mobs = (MonsterNPC) mobtype.clone();
             } catch (CloneNotSupportedException e) {
                 e.printStackTrace();
             }
@@ -55,7 +54,7 @@ public class SpawnMob implements Spawn<MonsterNPC> {
         this.mobsmap = mobsmap;
     }
 
-/*            this.id = mobtype.id;
+/*      this.id = mobtype.id;
         this.name = mobtype.name;
         this.level = mobtype.level;
         this.healthbar = mobtype.healthbar;

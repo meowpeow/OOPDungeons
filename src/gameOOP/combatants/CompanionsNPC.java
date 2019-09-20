@@ -1,6 +1,6 @@
 package gameOOP.combatants;
 
-public class CompanionsNPC extends Character {
+public class CompanionsNPC extends CharacterC {
 
     private int id;
     private String name;

@@ -1,7 +1,7 @@
 package gameOOP.combatants;
 
 
-public class MainHeroPC extends Character {
+public class MainHeroPC extends CharacterC {
 
     private int id;
     private String name;
